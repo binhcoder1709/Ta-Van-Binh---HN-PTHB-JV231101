@@ -1,0 +1,12 @@
+một số phím tắt:
+- copy code:
+    + bôi đen dòng code và gõ tổ hợp phím ctrl + cc và ctrl + v 
+- reload win:
+    + ctrl + shift + p : gõ nội dung là reload
+trên trình duyệt hỗ trợ một tool giúp cta trong quá trình phát triển phần mềm: chrome dev tool
+html gồm 2 thẻ quan trọng:
+- inline (nội tuyến)
+-block (khối)
+    + diện tích sẽ chiếm 100% chiều dài của màn hình hoặc phạm vi mà nó chiếm
+    + phần nội dung sẽ phụ thuộc vào nd của thẻ
+    + các thẻ sẽ được sắp xếp theo chiều dọc
