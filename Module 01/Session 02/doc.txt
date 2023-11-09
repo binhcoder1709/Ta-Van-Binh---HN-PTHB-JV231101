@@ -1,0 +1,5 @@
+- form gồm các thành phần sau:
+    + tiêu đề của form: đăng nhập, quản lí tài sản,...
+    + các ô nhập dữ liệu
+    + các nút nhấn để tương tác với form
+    + các đường dẫn để định tuyến

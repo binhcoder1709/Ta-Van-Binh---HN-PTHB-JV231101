@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <div class="product" id="product-info" style="border: 1px solid black; padding: 10px 10px;">
+            <h3 style="display: block; font-weight: 800;">Thông tin sản phẩm</h3>
+            <label for="product_name">Tên sản phẩm: </label>
+            <input type="text" id="product_name">
+            <label for="quantity">Số lượng</label>
+            <input type="number" id="quantity">
+        </div>
+        <div class="users" id="user-info" style="border: 1px solid black; padding: 10px 10px;">
+            <h3 style="display: block; font-weight: 800;">Thông tin giao hàng</h3>
+            <label for="user_name">Họ và tên: </label>
+            <input type="text" id="user_name">
+            <label for="user_email">Email: </label>
+            <input type="email" id="user_email">
+            <label for="user_nbphone">Số điện thoại: </label>
+            <input type="text" id="user_nbphone">
+            <label for="user_address">Địa chỉ: </label>
+            <textarea id="user_address" cols="30" rows="2"></textarea>
+        </div>
+        <div class="payment_info" style="border: 1px solid black; padding: 10px 10px;">
+            <h3 style="display: block; font-weight: 800;">Thông tin thanh toán</h3>
+            <label for="payment_methods">Phương thức thanh toán</label>
+            <select  id="payment_methods">
+                <option value="">Thanh toán khi nhận hàng</option>
+                <option value="">Thanh toán bằng thẻ visa</option>
+                <option value="">Thanh toán bằng ví momo</option>
+                <option value="">Thanh toán bằng thẻ tín dụng</option>
+            </select>
+        </div>
+        <div class="order_btn">
+            <button type="submit">Đặt hàng</button>
+        </div>
+    </form>
+</body>
+</html>
